@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "fs";
 import chalk from "chalk";
 import { deleteAsync } from "del";
 import { spawnSync } from "child_process";
