@@ -1,21 +1,19 @@
 {
-  "name": "bunify",
+  "name": "buni",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "type": "module",
-  "scripts": {
-    "build": "tsup"
-  },
-  "devDependencies": {
-    "bun-types": "latest",
-    "tsup": "^7.2.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
     "chalk": "^5.3.0",
     "del": "^7.1.0"
-  }
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tsup": "^7.2.0",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts"
 }
